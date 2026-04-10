@@ -17,14 +17,9 @@ jobs:
     - name: Remove hidden files to prevent server blocks
       run: rm -rf .git .github
 
-    - name: Deploy via Appleboy SCP
-      uses: appleboy/scp-action@v0.1.7
-      with:
-        host: ${{ secrets.SFTP_SERVER }}
-        username: ${{ secrets.SFTP_USERNAME }}
-        password: ${{ secrets.SFTP_PASSWORD }}
-        port: ${{ secrets.SFTP_PORT }}
-        source: "*"
-        target: "public_html/wp-content/themes/10xto-wordpress-theme"
-        overwrite: true
-        rm: false
+    - name: Mirror to WHC via LFTP Protocol
+      run: |
+        sudo apt-get update && sudo apt-get install lftp -y
+        lftp -c "set sftp:auto-confirm yes;
+        open -u ${{ secrets.SFTP_USERNAME }},${{ secrets.SFTP_PASSWORD }} sftp://${{ secrets.SFTP_SERVER }}:${{ secrets.SFTP_PORT }};
+        mirror --reverse --verbose --overwrite --parallel=3 --exclude .git/ --exclude .github/ ./ ./public_html/wp-content/themes/10xto-wordpress-theme/"
