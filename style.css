@@ -1,0 +1,18 @@
+/*
+Theme Name: 10XTO Custom Theme
+Theme Script: 10XTO
+Author: Modern AI Studio
+Description: Custom WordPress Theme crafted for the 10XTO Athletic Club, featuring a premium dark-mode aesthetic and custom layouts for membership conversion.
+Version: 1.0.0
+License: Proprietary
+Text Domain: 10xto
+*/
+
+/* 
+==========================================================================
+   Global Styles imported from design-system.css and styles.css
+   (Note: In a true WP production environment, these styles should be 
+   enqueued via functions.php, but we keep the header file here for WP 
+   recognition).
+========================================================================== 
+*/

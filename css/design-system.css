@@ -1,0 +1,82 @@
+/* ==================== 
+   10XTO DESIGN SYSTEM
+   ==================== */
+
+:root {
+    /* Color Palette */
+    --black: #000000;
+    --white: #FFFFFF;
+    --yellow: #EEB500;
+    
+    /* Neutrals */
+    --gray-light: #F5F5F5;
+    --gray-medium: #888888;
+    --gray-dark: #333333;
+    --gray-overlay: rgba(0, 0, 0, 0.7);
+
+    /* Typography */
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Work Sans', sans-serif;
+
+    /* Layout Boundaries */
+    --container-max-width: 1400px;
+    --nav-height: 80px;
+
+    /* Spacing Scale */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3.5rem;
+    --spacing-xl: 5rem;
+    --spacing-section: 7rem;
+
+    /* Shadows */
+    --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.3);
+    
+    /* Interactive States */
+    --shadow-hover-yellow: 0 10px 30px rgba(238, 181, 0, 0.4);
+    --shadow-hover-white: 0 15px 40px rgba(255, 255, 255, 0.2);
+
+    /* Transitions */
+    --transition-fast: all 0.3s ease;
+    --transition-medium: all 0.5s ease;
+    --transition-slow: all 0.7s ease;
+}
+
+/* Base Resets leveraging tokens */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--black);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+section {
+    padding: var(--spacing-section) var(--spacing-md);
+    position: relative;
+}

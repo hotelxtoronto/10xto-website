@@ -1,0 +1,19 @@
+# Video Files - Too large for GitHub (14GB tracked)
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.WEBM
+*.webm
+*.mkv
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Other
+node_modules/
+.vscode/
+.localWP/
+assets/

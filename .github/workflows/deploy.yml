@@ -1,0 +1,29 @@
+name: Deploy Theme to WHC
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  web-deploy:
+    name: Deploy to WHC
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v4
+
+    - name: Remove hidden files to prevent server blocks
+      run: rm -rf .git .github
+
+    - name: SFTP Deploy
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+      with:
+        username: ${{ secrets.SFTP_USERNAME }}
+        server: ${{ secrets.SFTP_SERVER }}
+        password: ${{ secrets.SFTP_PASSWORD }}
+        port: ${{ secrets.SFTP_PORT }}
+        local_path: './'
+        remote_path: './public_html/wp-content/themes/10xto-wordpress-theme/'
+        sftp_only: true
