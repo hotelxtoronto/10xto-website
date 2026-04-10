@@ -25,5 +25,5 @@ jobs:
         password: ${{ secrets.SFTP_PASSWORD }}
         port: ${{ secrets.SFTP_PORT }}
         localDir: '.'
-        remoteDir: '/home/${{ secrets.SFTP_USERNAME }}/public_html/wp-content/themes/10xto-wordpress-theme'
+        remoteDir: 'public_html/wp-content/themes/10xto-wordpress-theme'
         dryRun: false
