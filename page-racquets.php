@@ -105,7 +105,7 @@ get_header();
 
     <!-- Back Navigation Pill -->
     <div class="back-pill-container">
-        <a href="the-club.html" class="back-pill">
+        <a href="/the-club/" class="back-pill">
             <i class="fas fa-chevron-left"></i> Back to The Club
         </a>
     </div>

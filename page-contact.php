@@ -109,27 +109,27 @@ get_header(); ?>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="about.html">About 10XTO</a></li>
-                        <li><a href="membership.html">Membership Types</a></li>
-                        <li><a href="facilities.html">Facilities</a></li>
-                        <li><a href="programs.html">Programs</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="/about/">About 10XTO</a></li>
+                        <li><a href="/membership/">Membership Types</a></li>
+                        <li><a href="/facilities/">Facilities</a></li>
+                        <li><a href="/programs/">Programs</a></li>
+                        <li><a href="/contact/">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Programs</h4>
                     <ul>
-                        <li><a href="programs.html">Group Fitness</a></li>
-                        <li><a href="programs.html">Personal Training</a></li>
-                        <li><a href="facilities.html">Tennis Programs</a></li>
-                        <li><a href="facilities.html">Squash Programs</a></li>
+                        <li><a href="/programs/">Group Fitness</a></li>
+                        <li><a href="/programs/">Personal Training</a></li>
+                        <li><a href="/facilities/">Tennis Programs</a></li>
+                        <li><a href="/facilities/">Squash Programs</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Information</h4>
                     <ul>
-                        <li><a href="faq.html">FAQs</a></li>
-                        <li><a href="contact.html">Hotel Guests</a></li>
+                        <li><a href="/faq/">FAQs</a></li>
+                        <li><a href="/contact/">Hotel Guests</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
                     </ul>
