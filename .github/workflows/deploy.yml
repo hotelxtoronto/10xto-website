@@ -17,13 +17,13 @@ jobs:
     - name: Remove hidden files to prevent server blocks
       run: rm -rf .git .github
 
-    - name: SFTP Deploy
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+    - name: Deploy to WHC via SCP
+      uses: appleboy/scp-action@v0.1.7
       with:
+        host: ${{ secrets.SFTP_SERVER }}
         username: ${{ secrets.SFTP_USERNAME }}
-        server: ${{ secrets.SFTP_SERVER }}
         password: ${{ secrets.SFTP_PASSWORD }}
         port: ${{ secrets.SFTP_PORT }}
-        local_path: './'
-        remote_path: './public_html/wp-content/themes/10xto-wordpress-theme/'
-        sftp_only: true
+        source: "./"
+        target: "./public_html/wp-content/themes/10xto-wordpress-theme/"
+        overwrite: true
