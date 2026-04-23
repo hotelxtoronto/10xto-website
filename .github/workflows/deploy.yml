@@ -14,6 +14,9 @@ jobs:
     - name: Get latest code
       uses: actions/checkout@v4
 
+    - name: Remove hidden files to prevent server blocks
+      run: rm -rf .git .github
+
     - name: Deploy to WHC via True SFTP Sync
       uses: wangyucode/sftp-upload-action@v2.0.2
       with:
