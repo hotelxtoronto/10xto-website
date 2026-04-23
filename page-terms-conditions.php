@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 
-    <section class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%); height: 30vh; min-height: 250px;">
+    <section class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Website_Gallery/10XTO_yoga_studio_skyline_panoramic_view.jpg'); background-size: cover; background-position: center; height: 30vh; min-height: 250px;">
         <div class="container">
             <h1>Terms & Conditions</h1>
         </div>
@@ -14,7 +14,7 @@ get_header(); ?>
         <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">These terms of use are entered into by and between You and Princes Gate Hotel LP, Inc. (”Company”, “we” or “us”). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, these “Terms of Use”), govern Your access to and use of this Library Hotel Collection (“LHC”) web site (“Site”) and the web sites (“Sites”) of affiliated hotels, including any content, functionality, and services offered on or through the Sites (the “Sites”), whether as a guest or a registered user.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Please read the Terms of Use carefully before You start to use the Sites. By using the Sites or by clicking to accept or agree to the Terms of Use when this option is made available to You, You accept and agree to be bound and abide by these Terms of Use and our Privacy Policy, found at https://tenxtoronto.com/en/privacy-policy.html, incorporated herein by reference. If You do not want to agree to these Terms of Use or the Privacy Policy, You must not access or use the Sites.</p>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">​</h3>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">The Sites are offered and available to users who are 21 years of age or older. By using the Sites, You represent and warrant that You are of legal age to form a binding contract with the Company and meet all of the foregoing eligibility requirements. If You do not meet all of these requirements, You must not access or use the Sites.</p>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Changes to the Terms of Use</h3>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">We may revise and update these Terms of Use from time to time in our sole discretion. All changes are effective immediately when we post them, and apply to all access to and use of the Sites thereafter. However, any changes to the dispute resolution provisions set out in Governing Law and Jurisdiction will not apply to any disputes for which the parties have actual notice before the date the change is posted on the Sites.</p>
@@ -22,9 +22,7 @@ get_header(); ?>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Accessing the Sites and Account Security</h3>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">We reserve the right to withdraw or amend the Sites, and any service or material we provide on the Sites, in our sole discretion without notice. We will not be liable if for any reason all or any part of the Sites is unavailable at any time or for any period. From time to time, we may restrict access to some parts of the Sites, or the entire Sites, to users, including registered users.</p>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">You are responsible for:</h3>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Making all arrangements necessary for You to have access to the Sites.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Ensuring that all persons who access the Sites through Your Internet connection are aware of these Terms of Use and comply with them.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Making all arrangements necessary for You to have access to the Sites.</p>
@@ -35,9 +33,7 @@ get_header(); ?>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Intellectual Property Rights</h3>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">The Sites and their entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof), are owned by the Company, its licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">These Terms of Use permit You to use the Sites for Your personal, non-commercial use only. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our Sites, except as follows:</p>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Your computer may temporarily store copies of such materials in RAM incidental to Your accessing and viewing those materials.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">You may store files that are automatically cached by Your Web browser for display enhancement purposes.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">You may print or download one copy of a reasonable number of pages of the Sites for Your own personal, non-commercial use and not for further reproduction, publication, or distribution.</p>
@@ -49,9 +45,7 @@ get_header(); ?>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">If we provide desktop, mobile, or other applications for download, You may download a single copy to Your computer or mobile device solely for Your own personal, non-commercial use, provided You agree to be bound by our end user license agreement for such applications.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">If we provide social media features with certain content, You may take such actions as are enabled by such features.</p>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">You must not:</h3>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Modify copies of any materials from this site.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Use any illustrations, photographs, video or audio sequences, or any graphics separately from the accompanying text.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Delete or alter any copyright, trademark, or other proprietary rights notices from copies of materials from this site.</p>
@@ -65,9 +59,7 @@ get_header(); ?>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">The Company name, the terms LIBRARY HOTEL COLLECTION, HOTEL X, ARIA, LIBRARY HOTEL, HOTEL GIRAFFE, CASABLANCA HOTEL and HOTEL ELYSEE, and all related names, logos, product and service names, designs, and slogans are trademarks of the Company or its affiliates or licensors. You must not use such marks without the prior written permission of the Company. All other names, logos, product and service names, designs, and slogans on the Sites are the trademarks of their respective owners.</p>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Prohibited Uses</h3>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">You may use the Sites only for lawful purposes and in accordance with these Terms of Use. You agree not to use the Sites:</p>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">In any way that violates any applicable federal, state, local, or international law or regulation (including, without limitation, any laws regarding the export of data or software to and from the US or other countries).</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content, asking for personally identifiable information, or otherwise.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">To transmit, or procure the sending of, any advertising or promotional material, including any “junk mail”, “chain letter”, “spam”, or any other similar solicitation.</p>
@@ -79,9 +71,7 @@ get_header(); ?>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">To impersonate or attempt to impersonate the Company, a Company employee, another user, or any other person or entity (including, without limitation, by using email addresses or screen names associated with any of the foregoing).</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">To engage in any other conduct that restricts or inhibits anyone’s use or enjoyment of the Sites, or which, as determined by us, may harm the Company or users of the Sites or expose them to liability.</p>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Additionally, You agree not to:</h3>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Use the Sites in any manner that could disable, overburden, damage, or impair the site or interfere with any other party’s use of the Sites, including their ability to engage in real time activities through the Sites.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Use any robot, spider, or other automatic device, process, or means to access the Sites for any purpose, including monitoring or copying any of the material on the Sites.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Use any manual process to monitor or copy any of the material on the Sites or for any other unauthorized purpose without our prior written consent.</p>
@@ -108,9 +98,7 @@ get_header(); ?>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Linking to the Sites and Social Media Features</h3>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">You may link to our homepage, provided You do so in a way that is fair and legal and does not damage our reputation or take advantage of it, but You must not establish a link in such a way as to suggest any form of association, approval, or endorsement on our part.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">This Sites may provide certain social media features that enable You to:</p>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Link from Your own or certain third-party web sites to certain content on the Sites.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Send emails or other communications with certain content, or links to certain content, on the Sites.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Cause limited portions of content on the Sites to be displayed or appear to be displayed on Your own or certain third-party web sites.</p>
@@ -118,14 +106,10 @@ get_header(); ?>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Send emails or other communications with certain content, or links to certain content, on the Sites.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Cause limited portions of content on the Sites to be displayed or appear to be displayed on Your own or certain third-party web sites.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">You may use these features solely as they are provided by us, and solely with respect to the content they are displayed with and otherwise in accordance with any additional terms and conditions we provide with respect to such features. Subject to the foregoing, You must not:</p>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Establish a link from any web site that is not owned by You.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Cause the Sites or portions of it to be displayed on, or appear to be displayed by, any other site, for example, framing, deep linking, or in-line linking.</p>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Link to any part of the Sites other than the homepage.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Otherwise take any action with respect to the materials on the Sites that is inconsistent with any other provision of these Terms of Use.</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Establish a link from any web site that is not owned by You.</p>
@@ -176,17 +160,15 @@ get_header(); ?>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Web hosting: SAS WIHP</h3>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">President SAS WIHP: Vincent Ramelli</h3>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">The site presents:</h3>
-            <ul style="margin-bottom: 1.5rem; padding-left: 20px;">
-                <li style="margin-bottom: 0.5rem; color: #444;"></li>
-            </ul>
+
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Informative content</h3>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">A collection of personal data on line</h3>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Informative content</h3>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">A collection of personal data on line</h3>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">French Data Protection Act: the site is the subject of a declaration to the Commission Nationale Informatique and Liberté (French Data Protection Authority). You have the right to access, modify, rectify and delete information that concerns you (art. 34 of the Loi Informatique et Libertés (French Data Protection Act)). To exercise this right, please contact: info@tenxtoronto.com</p>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Ownership: The site and the information that it contains are protected by French intellectual property law and by international agreements. Except for use by immediate family members or private use, the site and any element of its content may not be reproduced, republished, retranscribed, modified or passed on without the prior authorization of the eligible party.</p>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">​</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">​</h3>
+
+
         </div>
     </section>
 
