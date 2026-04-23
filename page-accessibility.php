@@ -16,6 +16,7 @@ get_header(); ?>
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">10XTO is committed to ensuring equal access and participation for people with disabilities. We are committed to treating people with disabilities in a way that allows them to maintain their dignity and independence.</p>
 
             <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">We believe in integration, and we are committed to meeting the needs of people with disabilities in a timely manner. We will do so by removing and preventing barriers to accessibility and by meeting our accessibility requirements under Ontario's accessibility laws.</p>
+            <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">For our expanded accessibility policy, please refer to the <a href="https://www.hotelxtoronto.com/notice-of-accessibility" style="color: #c99339; text-decoration: underline;" target="_blank">Hotel X Toronto Notice of Accessibility</a>.</p>
         </div>
     </section>
 
