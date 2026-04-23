@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 
-    <section class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Website_Gallery/10XTO_yoga_studio_skyline_panoramic_view.jpg'); background-size: cover; background-position: center; height: 30vh; min-height: 250px;">
+    <section class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Website_Gallery/10XTO_tennis_player_serving_action_shot.jpg'); background-size: cover; background-position: center; height: 30vh; min-height: 250px;">
         <div class="container">
             <h1>Terms & Conditions</h1>
         </div>
@@ -150,23 +150,7 @@ get_header(); ?>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Toronto M6K 3C3 - CANADA</h3>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Tel: +1 647.475.9296</h3>
             <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">info@tenxtoronto.com</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Share capital:</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">VAT number:</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Purpose of site: Promotion of the establishment</h3>
-            <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Director of publication, legal representative: Mrs Adele GUTMAN</p>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Editorial Manager: Mrs Adele GUTMAN</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Webmaster, design, editing, artistic direction: SAS WIHP</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Photography: SAS WIHP</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Web hosting: SAS WIHP</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">President SAS WIHP: Vincent Ramelli</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">The site presents:</h3>
 
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Informative content</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">A collection of personal data on line</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">Informative content</h3>
-            <h3 style="margin-top: 2.5rem; margin-bottom: 1rem; color: #111; font-weight: 600;">A collection of personal data on line</h3>
-            <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">French Data Protection Act: the site is the subject of a declaration to the Commission Nationale Informatique and Liberté (French Data Protection Authority). You have the right to access, modify, rectify and delete information that concerns you (art. 34 of the Loi Informatique et Libertés (French Data Protection Act)). To exercise this right, please contact: info@tenxtoronto.com</p>
-            <p style="margin-bottom: 1.5rem; line-height: 1.8; color: #444;">Ownership: The site and the information that it contains are protected by French intellectual property law and by international agreements. Except for use by immediate family members or private use, the site and any element of its content may not be reproduced, republished, retranscribed, modified or passed on without the prior authorization of the eligible party.</p>
 
 
         </div>

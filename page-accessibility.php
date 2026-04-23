@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 
-    <section class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Website_Gallery/10XTO_yoga_studio_skyline_panoramic_view.jpg'); background-size: cover; background-position: center; height: 30vh; min-height: 250px;">
+    <section class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Website_Gallery/10XTO_tennis_player_serving_action_shot.jpg'); background-size: cover; background-position: center; height: 30vh; min-height: 250px;">
         <div class="container">
             <h1>Accessibility</h1>
         </div>
