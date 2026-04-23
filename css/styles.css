@@ -1869,3 +1869,23 @@ footer {
 .lightbox-close:hover {
     color: var(--yellow);
 }
+
+/* ==================== LEGAL PAGES ==================== */
+.legal-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: var(--white);
+}
+.legal-content h2, .legal-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.legal-content p, .legal-content ul, .legal-content ol {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: var(--gray-dark);
+}
+.legal-content ul, .legal-content ol {
+    padding-left: 2rem;
+}
