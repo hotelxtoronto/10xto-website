@@ -17,3 +17,5 @@ node_modules/
 .vscode/
 .localWP/
 assets/
+fix_links.py
+optimize_safe.py
