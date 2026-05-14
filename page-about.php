@@ -33,10 +33,10 @@ get_header(); ?>
     </section>
 
     <!-- Content: Team (Consolidated as per strategy) -->
-    <section class="content-section" style="background: var(--black); color: var(--white);">
-        <div class="container" style="padding-top: var(--spacing-section); padding-bottom: var(--spacing-section);">
+    <section class="content-section bg-black text-white">
+        <div class="container py-section">
             <div class="section-header">
-                <div class="section-badge" style="background: var(--yellow); color: var(--black);">The Experts</div>
+                <div class="section-badge bg-yellow text-black">The Experts</div>
                 <h2>The Leadership Team</h2>
                 <p style="color: rgba(255,255,255,0.8);">Our world-class professionals are dedicated to your optimal
                     performance.</p>
@@ -48,19 +48,19 @@ get_header(); ?>
                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Fariyal Hasham.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Fariyal Hasham</h4>
+                        <h4 class="text-black">Fariyal Hasham</h4>
                         <div class="team-role">Managing Director</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">She oversees the entire complex including the hotel and spa.</p>
+                        <p class="text-sm text-gray">She oversees the entire complex including the hotel and spa.</p>
                     </div>
                 </div>
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_Franziska.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/eddy headshot.png');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Eddy</h4>
+                        <h4 class="text-black">Eddy</h4>
                         <div class="team-role">Director of Tennis</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">Former ATP touring professional and
+                        <p class="text-sm text-gray">Former ATP touring professional and
                             master coach.</p>
                     </div>
                 </div>
@@ -69,9 +69,9 @@ get_header(); ?>
                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Serena Virtue.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Serena</h4>
+                        <h4 class="text-black">Serena</h4>
                         <div class="team-role">Director of Fitness</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">Specialist in contrast therapy and
+                        <p class="text-sm text-gray">Specialist in contrast therapy and
                             functional movement.</p>
                     </div>
                 </div>
@@ -81,9 +81,9 @@ get_header(); ?>
                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Shahier Razik.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Shahier</h4>
+                        <h4 class="text-black">Shahier</h4>
                         <div class="team-role">Head Squash Pro</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">Former professional player and certified
+                        <p class="text-sm text-gray">Former professional player and certified
                             Elite Coach.</p>
                     </div>
                 </div>
@@ -92,9 +92,9 @@ get_header(); ?>
                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Cristian Tarcea.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Cristian</h4>
+                        <h4 class="text-black">Cristian</h4>
                         <div class="team-role">Fitness Manager</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">Curator of our massive 45+ weekly class
+                        <p class="text-sm text-gray">Curator of our massive 45+ weekly class
                             schedule.</p>
                     </div>
                 </div>
@@ -103,9 +103,9 @@ get_header(); ?>
                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Keegan Murphy.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Keegan</h4>
+                        <h4 class="text-black">Keegan</h4>
                         <div class="team-role">Operations Manager</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">Dedicated to ensuring a flawless member
+                        <p class="text-sm text-gray">Dedicated to ensuring a flawless member
                             experience.</p>
                     </div>
                 </div>
@@ -114,9 +114,9 @@ get_header(); ?>
                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Deidre Donaldson.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Deidre</h4>
+                        <h4 class="text-black">Deidre</h4>
                         <div class="team-role">Membership Sales Specialist</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">Guiding new members through our premium
+                        <p class="text-sm text-gray">Guiding new members through our premium
                             amenities and membership options.</p>
                     </div>
                 </div>
@@ -125,9 +125,9 @@ get_header(); ?>
                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Jamal Jordan.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Jamal</h4>
+                        <h4 class="text-black">Jamal</h4>
                         <div class="team-role">Membership Sales Specialist</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">Connecting individuals with the perfect
+                        <p class="text-sm text-gray">Connecting individuals with the perfect
                             10XTO luxury wellness experience.</p>
                     </div>
                 </div>
@@ -139,18 +139,18 @@ get_header(); ?>
     <section class="content-section container">
         <div class="story-grid" style="align-items: center;">
             <div class="story-text">
-                <div class="section-badge" style="background: var(--yellow); color: var(--black);">Visit Us</div>
+                <div class="section-badge bg-yellow text-black">Visit Us</div>
                 <h2>Location & Facilities</h2>
                 <p>10XTO is proudly located atop the historic Princes' Gates at Hotel X Toronto. Our expansive, 90,000 sq. ft. athletic club offers members unprecedented access to premium facilities right in the heart of the city.</p>
-                <div style="margin-top: 2rem;">
+                <div class="mt-8">
                     <h4 style="margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; color: var(--gray-dark);">Address</h4>
                     <p style="font-weight: 600;">107 Princes' Boulevard<br>Toronto, ON M6K 3C3<br>At Hotel X Toronto</p>
                 </div>
-                <div style="margin-top: 2rem;">
+                <div class="mt-8">
                     <h4 style="margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; color: var(--gray-dark);">Hours</h4>
                     <p style="font-weight: 600;">Mon - Fri: 6:00am - 11:00pm<br>Sat & Sun: 7:00am - 10:00pm</p>
                 </div>
-                <a href="<?php echo esc_url(site_url('/facilities')); ?>" class="cta-primary" style="margin-top: 2rem;">Explore Facilities Overview</a>
+                <a href="<?php echo esc_url(site_url('/the-club')); ?>" class="cta-primary mt-8">Explore Facilities Overview</a>
             </div>
             <div class="story-image" style="height: 100%; min-height: 400px;">
                 <iframe src="https://maps.google.com/maps?q=10XTO,%20107%20Princes'%20Boulevard,%20Toronto&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; min-height: 400px; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>

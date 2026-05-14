@@ -5,10 +5,10 @@
 get_header(); ?>
 
     <header class="page-hero"
-        style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('https://static.wixstatic.com/media/dacce5_6de86b5573e04fe1b791f3538a932121~mv2.jpg/v1/fill/w_1920,h_1080/image.jpg') center/cover;">
+        style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Strength%20Zone/10XTO-Strength%20Zone%2001.jpg') center/cover;">
         <div class="container">
             <h1>Membership</h1>
-            <p style="font-size: 1.2rem;">Exclusive access. Premium facilities. Elevated experience.</p>
+            <p class="text-lg">Exclusive access. Premium facilities. Elevated experience.</p>
         </div>
     </header>
 
@@ -47,7 +47,7 @@ get_header(); ?>
                 <!-- Platinum Membership (Featured) -->
                 <div class="membership-card featured">
                     <div class="card-header">
-                        <div class="featured-badge" style="background-color: var(--black); color: var(--white);">
+                        <div class="featured-badge bg-black text-white">
                             Waitlisted</div>
                         <h3>Platinum Membership</h3>
                         <p>Includes Tennis Access</p>

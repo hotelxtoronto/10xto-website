@@ -37,23 +37,15 @@ wp_nav_menu(array(
 </nav>
 
 <!-- Mobile Menu / Drawer -->
-<div class="mobile-menu">
-    <a href="<?php echo esc_url(site_url('/about')); ?>">About</a>
-    <a href="<?php echo esc_url(site_url('/membership')); ?>">Membership</a>
-    <a href="<?php echo esc_url(site_url('/the-club')); ?>">The Club</a>
-    <div class="drawer-submenu">
-        <a href="<?php echo esc_url(site_url('/racquets')); ?>">Racquets</a>
-        <a href="<?php echo esc_url(site_url('/fitness')); ?>">Fitness</a>
-        <a href="<?php echo esc_url(site_url('/wellness')); ?>">Wellness</a>
-        <a href="<?php echo esc_url(site_url('/families')); ?>">Families</a>
-    </div>
-    <a href="<?php echo esc_url(site_url('/programs')); ?>">Programs</a>
-    <a href="<?php echo esc_url(site_url('/events')); ?>">Events</a>
-    <a href="<?php echo esc_url(site_url('/gallery')); ?>">Gallery</a>
-    <a href="<?php echo esc_url(site_url('/contact')); ?>">Contact</a>
-    <a href="<?php echo esc_url(site_url('/hotel-guest/')); ?>">Hotel Guest Information</a>
-    <a href="<?php echo esc_url(site_url('/membership/#apply')); ?>" style="color: var(--yellow);">Membership Inquiry</a>
-</div>
+<?php
+wp_nav_menu(array(
+    'theme_location' => 'primary',
+    'menu_id' => 'mobile-nav-menu',
+    'menu_class' => 'mobile-menu',
+    'container' => false,
+    'fallback_cb' => false,
+));
+?>
 
 
 <!-- Main Content Area Starts -->

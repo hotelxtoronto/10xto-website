@@ -8,7 +8,7 @@ get_header(); ?>
         style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Website_Gallery/10XTO_yoga_studio_skyline_panoramic_view.jpg') center/cover;">
         <div class="container">
             <h1>Contact Us</h1>
-            <p style="font-size: 1.2rem;">We look forward to connecting with you.</p>
+            <p class="text-lg">We look forward to connecting with you.</p>
         </div>
     </header>
 

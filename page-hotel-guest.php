@@ -66,13 +66,13 @@ get_header();
     style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Amenities/Year-Round%20Heated%20Rooftop%20Pool%202.jpg') center/cover;">
     <div class="container">
         <h1>Welcome to 10XTO</h1>
-        <p style="font-size: 1.2rem;">The Next Level of Hotel Fitness</p>
+        <p class="text-lg">The Next Level of Hotel Fitness</p>
     </div>
 </header>
 
 <section class="content-section container">
-    <div class="section-badge" style="background: var(--black); color: var(--white);">Guest Privileges</div>
-    <h2 style="margin-top: 1rem;">An Unmatched Experience</h2>
+    <div class="section-badge bg-black text-white">Guest Privileges</div>
+    <h2 class="mt-4">An Unmatched Experience</h2>
     <p class="intro-text" style="max-width: 800px;">
         Hotel X Toronto offers a sports and fitness experience unmatched by any city hotel in North America.
         As a registered guest, we encourage you to enjoy complimentary access to the 4th Floor Fitness Centre,
@@ -97,12 +97,12 @@ get_header();
                     person</h4>
                 <ul style="list-style: none; padding: 0; margin: 0; color: #ccc;">
                     <li style="margin-bottom: 0.5rem; display: flex; align-items: start; gap: 0.5rem;"><span
-                            style="color: var(--yellow);">✓</span> One (1) 45-minute booking at the Contrast Zone
+                            class="text-yellow">✓</span> One (1) 45-minute booking at the Contrast Zone
                     </li>
                     <li style="margin-bottom: 0.5rem; display: flex; align-items: start; gap: 0.5rem;"><span
-                            style="color: var(--yellow);">✓</span> One (1) Group Fitness Class at 10XTO</li>
+                            class="text-yellow">✓</span> One (1) Group Fitness Class at 10XTO</li>
                     <li style="display: flex; align-items: start; gap: 0.5rem;"><span
-                            style="color: var(--yellow);">✓</span> In-room use of Kala Red Light Therapy products
+                            class="text-yellow">✓</span> In-room use of Kala Red Light Therapy products
                     </li>
                 </ul>
             </div>

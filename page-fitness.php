@@ -164,7 +164,7 @@ get_header();
             <div class="container">
                 <div class="story-grid" style="align-items: center; direction: rtl;">
                     <div class="story-text" style="direction: ltr;">
-                        <h2 style="color: var(--white);">The Strength Zone</h2>
+                        <h2 class="text-white">The Strength Zone</h2>
                         <p style="color: rgba(255,255,255,0.8);">A hardcore, high-performance area tucked away for
                             serious barbell athletes and functional fitness enthusiasts. Featuring heavy turf and
                             specialized racks designed for Olympic lifting.</p>
@@ -260,7 +260,7 @@ get_header();
             <div class="container">
                 <div class="story-grid" style="align-items: center;">
                     <div class="story-text">
-                        <h2 style="color: var(--white);">The Strength Zone</h2>
+                        <h2 class="text-white">The Strength Zone</h2>
                         <p style="color: rgba(255,255,255,0.8);">Beyond open training, our high-performance strength
                             zone also hosts intimate group functional fitness sessions leveraging our heavy turf,
                             kettlebells, and specialized racks.</p>
@@ -295,7 +295,7 @@ get_header();
                         <p>Transform your body with our dedicated Reformer Pilates programming. Our intimate studio is
                             equipped with premium Allegro 2 Reformers designed to build deep core strength, increase
                             flexibility, and drastically improve postural alignment.</p>
-                        <div class="feature-highlights" style="margin-top: 2rem;">
+                        <div class="feature-highlights mt-8">
                             <div class="highlight-item"
                                 style="border-left: 4px solid var(--yellow); padding-left: 1.5rem; margin-bottom: 1.5rem;">
                                 <h4>Small Group Sessions</h4>

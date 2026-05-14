@@ -69,35 +69,35 @@
                     your best performance.</p>
             </div>
             <div class="facilities-grid">
-                <a href="<?php echo site_url('/racquets'); ?>" class="facility-card" style="text-decoration: none;">
+                <a href="<?php echo site_url('/racquets'); ?>" class="facility-card no-underline">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Tennis Courts/Courts in Play-1.jpg" alt="Tennis Courts"
                         class="facility-image">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
                         <h3>Racquets</h3>
-                        <p style="color: var(--white);">4 stunning indoor tennis courts with floor-to-ceiling windows and breathtaking city views,
+                        <p class="text-white">4 stunning indoor tennis courts with floor-to-ceiling windows and breathtaking city views,
                             plus glass-backed squash courts</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Racquets &rarr;</span>
                     </div>
                 </a>
-                <a href="<?php echo site_url('/fitness'); ?>" class="facility-card" style="text-decoration: none;">
+                <a href="<?php echo site_url('/fitness'); ?>" class="facility-card no-underline">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/10XTO-Fitness Centre.jpg" alt="Fitness Center"
                         class="facility-image">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
                         <h3>Athletics</h3>
-                        <p style="color: var(--white);">State-of-the-art fitness center, dedicated strength zone, and premium equipment in open,
+                        <p class="text-white">State-of-the-art fitness center, dedicated strength zone, and premium equipment in open,
                             naturally-lit spaces</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Athletics &rarr;</span>
                     </div>
                 </a>
-                <a href="<?php echo site_url('/wellness'); ?>" class="facility-card" style="text-decoration: none;">
+                <a href="<?php echo site_url('/wellness'); ?>" class="facility-card no-underline">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Contrast Zone/Architectural/Contrast Zone-10.jpg" alt="Wellness"
                         class="facility-image">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
                         <h3>Wellness</h3>
-                        <p style="color: var(--white);">Signature Contrast Zone with hot/cold therapy, hot yoga studio with skyline views, and
+                        <p class="text-white">Signature Contrast Zone with hot/cold therapy, hot yoga studio with skyline views, and
                             comprehensive recovery amenities</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Wellness &rarr;</span>
                     </div>
@@ -111,7 +111,7 @@
         <div class="container">
             <div class="contrast-content">
                 <div class="contrast-text">
-                    <div class="section-badge" style="background: var(--yellow); color: var(--black);">Newly Open</div>
+                    <div class="section-badge bg-yellow text-black">Newly Open</div>
                     <h2>Contrast Zone:<br><span class="highlight">Heat. Cold. Light.</span></h2>
                     <p>A wellness space designed for luxury rejuvenation through contrast therapy. Experience the
                         transformative power of hot and cold immersion—included with your membership at no additional
@@ -168,7 +168,7 @@
                         <p>Age-appropriate classes designed to build athleticism, coordination, and confidence in young
                             members.</p>
                     </div>
-                    <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/Group%20Fitness%20Schedule_April%202026.pdf" target="_blank" class="cta-primary" style="margin-top: 1rem;">View Full Schedule</a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/Group%20Fitness%20Schedule_April%202026.pdf" target="_blank" class="cta-primary mt-4">View Full Schedule</a>
                 </div>
             </div>
         </div>
@@ -242,7 +242,7 @@
                 <!-- Platinum Membership (Featured) -->
                 <div class="membership-card featured">
                     <div class="card-header">
-                        <div class="featured-badge" style="background-color: var(--black); color: var(--white);">
+                        <div class="featured-badge bg-black text-white">
                             Waitlisted</div>
                         <h3>Platinum Membership</h3>
                         <p>Includes Tennis Access</p>
@@ -269,7 +269,7 @@
         <div class="container">
             <div class="contact-container">
                 <div class="contact-info">
-                    <div class="section-badge" style="background: var(--yellow); color: var(--black);">Get in Touch
+                    <div class="section-badge bg-yellow text-black">Get in Touch
                     </div>
                     <h2>Visit Us Today</h2>
                     <p>Experience 10XTO firsthand. Schedule a personal tour and discover what sets Toronto's premier
@@ -277,28 +277,28 @@
 
                     <div class="contact-details">
                         <div class="contact-item">
-                            <div class="contact-icon">📍</div>
+                            <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
                             <div class="contact-item-content">
                                 <h4>Location</h4>
                                 <p>107 Princes' Boulevard<br>Toronto, ON M6K 3C3<br>At Hotel X Toronto</p>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <div class="contact-icon">📞</div>
+                            <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div>
                             <div class="contact-item-content">
                                 <h4>Phone</h4>
                                 <p><a href="tel:647-475-9295">647.475.9295</a></p>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <div class="contact-icon">✉️</div>
+                            <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div>
                             <div class="contact-item-content">
                                 <h4>Email</h4>
                                 <p><a href="mailto:membership@10xto.com">membership@10xto.com</a></p>
                             </div>
                         </div>
                         <div class="contact-item">
-                            <div class="contact-icon">🕐</div>
+                            <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
                             <div class="contact-item-content">
                                 <h4>Hours</h4>
                                 <p>Monday - Friday: 6:00am - 11:00pm<br>Saturday & Sunday: 7:00am - 10:00pm</p>

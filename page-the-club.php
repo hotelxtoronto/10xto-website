@@ -7,7 +7,7 @@ get_header(); ?>
     <header class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Tennis Courts/Tennis Courts 2024-3.jpg') center/cover;">
         <div class="container">
             <h1>Facilities</h1>
-            <p style="font-size: 1.2rem;">Space. Light. Performance.</p>
+            <p class="text-lg">Space. Light. Performance.</p>
         </div>
     </header>
 
@@ -15,46 +15,46 @@ get_header(); ?>
     <section class="facilities" id="facilities">
         <div class="container">
             <div class="section-intro" style="text-align: center; max-width: 800px; margin: 0 auto 3.5rem;">
-                <h2 style="margin-bottom: 1rem;">Welcome to Your Club</h2>
-                <p style="font-size: 1.1rem; line-height: 1.6;">
+                <h2 class="mb-4">Welcome to Your Club</h2>
+                <p class="text-md">
                     10XTO is an unparalleled athletic and wellness destination located at Hotel X Toronto. We provide an elite environment spanning specialized racquet sports, cutting-edge fitness, and rejuvenating contrast therapies. Explore our primary facilities below.
                 </p>
             </div>
 
             <div class="facilities-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
                 
-                <a href="<?php echo site_url('/racquets'); ?>" class="facility-card" style="text-decoration: none;">
+                <a href="<?php echo site_url('/racquets'); ?>" class="facility-card no-underline">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Website_Gallery/10XTO_tennis_player_serving_action_shot.jpg" alt="10XTO Racquets Facility"
                         class="facility-image">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
                         
                         <h3>Racquets</h3>
-                        <p style="color: var(--white);">4 stunning indoor DecoTurf tennis courts and 7 premium glass-backed squash courts offering breathtaking city views and elite play.</p>
+                        <p class="text-white">4 stunning indoor DecoTurf tennis courts and 7 premium glass-backed squash courts offering breathtaking city views and elite play.</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Racquets &rarr;</span>
                     </div>
                 </a>
                 
-                <a href="<?php echo site_url('/fitness'); ?>" class="facility-card" style="text-decoration: none;">
+                <a href="<?php echo site_url('/fitness'); ?>" class="facility-card no-underline">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Strength%20Zone/10XTO-Strength%20Zone%2001.jpg" alt="Fitness Center"
                         class="facility-image">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
                         
                         <h3>Fitness & Athletics</h3>
-                        <p style="color: var(--white);">A staggering 6,500 sq. ft. fitness centre, a high-performance strength zone, and 4 dedicated group fitness studios.</p>
+                        <p class="text-white">A staggering 6,500 sq. ft. fitness centre, a high-performance strength zone, and 4 dedicated group fitness studios.</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Fitness &rarr;</span>
                     </div>
                 </a>
                 
-                <a href="<?php echo site_url('/wellness'); ?>" class="facility-card" style="text-decoration: none;">
+                <a href="<?php echo site_url('/wellness'); ?>" class="facility-card no-underline">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Contrast%20Zone/Lifestyle/10XTO-ContrastZone-Lifestyleq-01.jpg" alt="Wellness"
                         class="facility-image" style="object-position: 75% center;">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
                         
                         <h3>Wellness</h3>
-                        <p style="color: var(--white);">Our expansive Contrast Zone with hot/cold therapy, a skyline-view hot yoga studio, and luxury locker rooms.</p>
+                        <p class="text-white">Our expansive Contrast Zone with hot/cold therapy, a skyline-view hot yoga studio, and luxury locker rooms.</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Wellness &rarr;</span>
                     </div>
                 </a>

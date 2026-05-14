@@ -7,7 +7,7 @@ get_header(); ?>
     <header class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/10XTO-MemberLounge02.jpg') center/cover;">
         <div class="container">
             <h1>Frequently Asked Questions</h1>
-            <p style="font-size: 1.2rem;">Everything you need to know.</p>
+            <p class="text-lg">Everything you need to know.</p>
         </div>
     </header>
 

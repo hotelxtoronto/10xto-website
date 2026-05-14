@@ -158,26 +158,26 @@ get_header();
             </div>
         </section>
 
-        <section class="content-section" style="background: var(--black); color: var(--white);">
-            <div class="container" style="padding-top: var(--spacing-section); padding-bottom: var(--spacing-section);">
+        <section class="content-section bg-black text-white">
+            <div class="container py-section">
                 <div class="section-header">
                     <h2>Programs & Clinics</h2>
                     <p style="color: rgba(255,255,255,0.8);">Elevate your game with our elite coaching staff.</p>
                 </div>
                 <div class="feature-highlights" style="margin-top: 0;">
                     <div class="highlight-item" style="background: rgba(255,255,255,0.1); border-color: var(--yellow);">
-                        <h4 style="color: var(--white);">Live Ball Clinics</h4>
+                        <h4 class="text-white">Live Ball Clinics</h4>
                         <p style="color: var(--gray-light);">High-energy, fast-paced group drills designed to improve
                             reaction time and cardiovascular stamina.</p>
                     </div>
                     <div class="highlight-item" style="background: rgba(255,255,255,0.1); border-color: var(--yellow);">
-                        <h4 style="color: var(--white);">Private Instruction</h4>
+                        <h4 class="text-white">Private Instruction</h4>
                         <p style="color: var(--gray-light);">One-on-one coaching analyzing stroke mechanics, footwork,
                             and
                             tactical match strategy.</p>
                     </div>
                     <div class="highlight-item" style="background: rgba(255,255,255,0.1); border-color: var(--yellow);">
-                        <h4 style="color: var(--white);">House Leagues</h4>
+                        <h4 class="text-white">House Leagues</h4>
                         <p style="color: var(--gray-light);">Competitive seasonal ladders and social mixers for all NTRP
                             rating levels.</p>
                     </div>
@@ -239,27 +239,27 @@ get_header();
             </div>
         </section>
 
-        <section class="content-section" style="background: var(--black); color: var(--white);">
-            <div class="container" style="padding-top: var(--spacing-section); padding-bottom: var(--spacing-section);">
+        <section class="content-section bg-black text-white">
+            <div class="container py-section">
                 <div class="section-header">
                     <h2>Programs & Leagues</h2>
                     <p style="color: rgba(255,255,255,0.8);">Structured play for all levels of experience.</p>
                 </div>
                 <div class="feature-highlights" style="margin-top: 0;">
                     <div class="highlight-item" style="background: rgba(255,255,255,0.1); border-color: var(--yellow);">
-                        <h4 style="color: var(--white);">House Leagues</h4>
+                        <h4 class="text-white">House Leagues</h4>
                         <p style="color: var(--gray-light);">Organized box leagues ensuring you always have a
                             competitive
                             match at your precise skill level.</p>
                     </div>
                     <div class="highlight-item" style="background: rgba(255,255,255,0.1); border-color: var(--yellow);">
-                        <h4 style="color: var(--white);">Private Coaching</h4>
+                        <h4 class="text-white">Private Coaching</h4>
                         <p style="color: var(--gray-light);">One-on-one sessions focusing on technique, movement
                             efficiency,
                             and shot selection.</p>
                     </div>
                     <div class="highlight-item" style="background: rgba(255,255,255,0.1); border-color: var(--yellow);">
-                        <h4 style="color: var(--white);">Social Scrambles</h4>
+                        <h4 class="text-white">Social Scrambles</h4>
                         <p style="color: var(--gray-light);">Weekly round-robin events designed to integrate new members
                             into the 10XTO squash community.</p>
                     </div>

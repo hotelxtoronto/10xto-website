@@ -56,8 +56,8 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="content-section" style="background: var(--black); color: var(--white);">
-        <div class="container" style="padding-top: var(--spacing-section); padding-bottom: var(--spacing-section);">
+    <section class="content-section bg-black text-white">
+        <div class="container py-section">
             <div class="section-header">
                 <h2>Youth Programs & Guidelines</h2>
                 <p style="color: rgba(255,255,255,0.8);">Fostering a lifelong love of sport and movement for the next generation.</p>

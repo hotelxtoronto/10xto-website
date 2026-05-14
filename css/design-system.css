@@ -80,3 +80,21 @@ section {
     padding: var(--spacing-section) var(--spacing-md);
     position: relative;
 }
+
+/* Utility Classes for Typography & Spacing */
+.text-black { color: var(--black); }
+.text-white { color: var(--white); }
+.text-yellow { color: var(--yellow); }
+.bg-black { background-color: var(--black); }
+.bg-yellow { background-color: var(--yellow); }
+.text-lg { font-size: 1.2rem; }
+.text-md { font-size: 1.1rem; line-height: 1.6; }
+.text-sm { font-size: 0.9rem; }
+.text-gray { color: var(--gray-dark); }
+.no-underline { text-decoration: none; }
+.mt-4 { margin-top: 1rem; }
+.mt-8 { margin-top: 2rem; }
+.mt-10 { margin-top: 2.5rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.py-section { padding-top: var(--spacing-section); padding-bottom: var(--spacing-section); }

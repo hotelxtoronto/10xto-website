@@ -7,7 +7,7 @@ get_header(); ?>
     <header class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Expertise/Group%20Fitness/IMG_4344-Edit.jpg') center/cover;">
         <div class="container">
             <h1>Programs</h1>
-            <p style="font-size: 1.2rem;">Push your limits. Achieve your goals.</p>
+            <p class="text-lg">Push your limits. Achieve your goals.</p>
         </div>
     </header>
 
@@ -74,7 +74,7 @@ get_header(); ?>
         <button class="tab-btn" data-target="youth-families">Youth & Families</button>
     </div>
 
-    <section class="programs-hub" id="programs" style="padding-top: var(--spacing-section); padding-bottom: var(--spacing-section);">
+    <section class="programs-hub" id="programs" class="py-section">
         <div class="container">
         <!-- GROUP FITNESS TAB -->
         <div class="tab-content active" data-category="group-fitness">
