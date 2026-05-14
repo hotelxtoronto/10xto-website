@@ -52,3 +52,13 @@
 **Commits:** `6ad3a7a Normalize line endings via .gitattributes`
 **Incomplete:** Restarting "Local by Flywheel" needs to be done manually by the user via the app GUI.
 **Scratch:** None
+
+
+## 2026-05-14 18:58
+**Prompt:** "push to staging site"
+**Did:** Deleted another stale `.git/index.lock`, committed the latest `WORKLOG.md` entry, and executed `git push origin main` to trigger the GitHub Actions deployment workflow for Staging.
+**Files touched:** 
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\WORKLOG.md`
+**Commits:** `9952a42 Update WORKLOG`
+**Incomplete:** None
+**Scratch:** None
