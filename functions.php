@@ -46,3 +46,25 @@ function tenxto_scripts()
 	wp_enqueue_script('tenxto-script', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'tenxto_scripts');
+
+function fix_10xto_page_templates() {
+    $pages_to_fix = [
+        'about' => 'page-about.php',
+        'events' => 'page-events.php',
+        'the-club' => 'page-the-club.php',
+        'racquets' => 'page-racquets.php',
+        'programs' => 'page-programs.php',
+        'families' => 'page-families.php',
+        'fitness' => 'page-fitness.php'
+    ];
+    foreach ($pages_to_fix as $slug => $template) {
+        $page = get_page_by_path($slug);
+        if ($page) {
+            $current_template = get_post_meta($page->ID, '_wp_page_template', true);
+            if ($current_template !== $template) {
+                update_post_meta($page->ID, '_wp_page_template', $template);
+            }
+        }
+    }
+}
+add_action('init', 'fix_10xto_page_templates');
