@@ -41,3 +41,14 @@
 **Commits:** `552eb23 Add workflow docs, worklog, deployment snapshot tooling` (Amended)
 **Incomplete:** None
 **Scratch:** None
+
+
+## 2026-05-14 18:36
+**Prompt:** "Before doing any more theme work, fix the chronic line-ending issue that's been making git status show 28 files as Modified... Also resolve the current index corruption from the last amend."
+**Did:** Deleted the stale `.git/index.lock`, configured `core.autocrlf false` and `core.safecrlf false`, and created a comprehensive `.gitattributes` file to enforce LF endings across the repository. Ran `git add --renormalize .` to normalize the index and committed the new `.gitattributes` file, successfully resolving the `null sha1` error and cleaning up the working tree.
+**Files touched:** 
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\.gitattributes` (New)
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\WORKLOG.md`
+**Commits:** `6ad3a7a Normalize line endings via .gitattributes`
+**Incomplete:** Restarting "Local by Flywheel" needs to be done manually by the user via the app GUI.
+**Scratch:** None
