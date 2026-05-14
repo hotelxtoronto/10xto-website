@@ -17,6 +17,9 @@ jobs:
     - name: Remove hidden files to prevent server blocks
       run: rm -rf .git .github
 
+    - name: Record deployed commit
+      run: echo "${{ github.sha }}" > deployed_commit.txt
+
     - name: Deploy to WHC via True SFTP Sync
       uses: wangyucode/sftp-upload-action@v2.0.2
       with:
