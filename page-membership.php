@@ -40,7 +40,7 @@ get_header(); ?>
                             <li>Contrast Zone access</li>
                             <li>Complimentary Underground Parking</li>
                         </ul>
-                        <a href="#apply" class="card-cta">Apply Now</a>
+                        <a href="#apply" class="card-cta">Membership Inquiry</a>
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@ get_header(); ?>
                             <li>Access to Private Tennis Lessons</li>
                             <li>Priority Event Registration</li>
                         </ul>
-                        <a href="#apply" class="card-cta">Join Waitlist</a>
+                        <a href="#apply" class="card-cta">Membership Inquiry</a>
                     </div>
                 </div>
             </div>

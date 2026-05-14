@@ -9,7 +9,7 @@
             <p class="hero-subtitle">A Next Generation Lifestyle Athletic Club in the Heart of the Exhibition Grounds.
             </p>
             <div class="hero-ctas">
-                <a href="#apply" class="cta-primary">Become a Member</a>
+                <a href="#apply" class="cta-primary">Membership Inquiry</a>
                 <a href="#contact" class="cta-secondary">Schedule a Tour</a>
             </div>
         </div>
@@ -118,7 +118,7 @@
                         cost.</p>
                     <p>This signature amenity sets 10XTO apart, offering therapeutic benefits rarely found in
                         traditional athletic clubs.</p>
-                    <a href="#apply" class="cta-primary">Explore Membership</a>
+                    <a href="<?php echo esc_url(site_url('/membership')); ?>" class="cta-primary">Explore Membership</a>
                 </div>
                 <div class="contrast-image">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Ambience/Contrast Zone/Architectural/Contrast Zone-5.jpg"
@@ -168,7 +168,7 @@
                         <p>Age-appropriate classes designed to build athleticism, coordination, and confidence in young
                             members.</p>
                     </div>
-                    <a href="#contact" class="cta-primary" style="margin-top: 1rem;">View Full Schedule</a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/Group%20Fitness%20Schedule_April%202026.pdf" target="_blank" class="cta-primary" style="margin-top: 1rem;">View Full Schedule</a>
                 </div>
             </div>
         </div>
@@ -235,7 +235,7 @@
                             <li>Complimentary Underground Parking</li>
                             <li>Available as Single, Couple, or Family</li>
                         </ul>
-                        <a href="<?php echo site_url('/membership/#apply'); ?>" class="card-cta">Apply Now</a>
+                        <a href="<?php echo site_url('/membership/#apply'); ?>" class="card-cta">Membership Inquiry</a>
                     </div>
                 </div>
 
@@ -257,7 +257,7 @@
                             <li>Priority Event Registration</li>
                             <li>Available as Single, Couple, or Family</li>
                         </ul>
-                        <a href="<?php echo site_url('/membership/#apply'); ?>" class="card-cta">Join Waitlist</a>
+                        <a href="<?php echo site_url('/membership/#apply'); ?>" class="card-cta">Membership Inquiry</a>
                     </div>
                 </div>
             </div>

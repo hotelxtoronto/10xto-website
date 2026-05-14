@@ -1762,7 +1762,7 @@ footer {
 .filter-btn {
     background: transparent;
     border: 1px solid var(--gray-medium);
-    color: var(--black);
+    color: var(--white);
     padding: 0.5rem 1.5rem;
     border-radius: 30px;
     font-size: 0.95rem;
@@ -1775,6 +1775,7 @@ footer {
 .filter-btn.active {
     background: var(--yellow);
     border-color: var(--yellow);
+    color: var(--black);
 }
 
 /* Since true Masonry requires JS for dynamic row-spans, we build a pseudo-masonry with CSS columns for simplicity and performance */

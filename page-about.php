@@ -45,13 +45,12 @@ get_header(); ?>
                 <!-- Example Team Members -->
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_Jason.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Fariyal Hasham.jpg');">
                     </div>
                     <div class="team-info">
-                        <h4 style="color: var(--black);">Jordan</h4>
-                        <div class="team-role">General Manager</div>
-                        <p style="font-size: 0.9rem; color: var(--gray-dark);">15+ years of high-performance training
-                            leadership.</p>
+                        <h4 style="color: var(--black);">Fariyal Hasham</h4>
+                        <div class="team-role">Managing Director</div>
+                        <p style="font-size: 0.9rem; color: var(--gray-dark);">She oversees the entire complex including the hotel and spa.</p>
                     </div>
                 </div>
                 <div class="team-card">
@@ -67,7 +66,7 @@ get_header(); ?>
                 </div>
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_MJ.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Serena Virtue.jpg');">
                     </div>
                     <div class="team-info">
                         <h4 style="color: var(--black);">Serena</h4>
@@ -79,7 +78,7 @@ get_header(); ?>
                 <!-- Additional Team Members -->
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_Ben.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Shahier Razik.jpg');">
                     </div>
                     <div class="team-info">
                         <h4 style="color: var(--black);">Shahier</h4>
@@ -90,7 +89,7 @@ get_header(); ?>
                 </div>
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_Lisa.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Cristian Tarcea.jpg');">
                     </div>
                     <div class="team-info">
                         <h4 style="color: var(--black);">Cristian</h4>
@@ -101,7 +100,7 @@ get_header(); ?>
                 </div>
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_Chris.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Keegan Murphy.jpg');">
                     </div>
                     <div class="team-info">
                         <h4 style="color: var(--black);">Keegan</h4>
@@ -112,7 +111,7 @@ get_header(); ?>
                 </div>
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_Lisa.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Deidre Donaldson.jpg');">
                     </div>
                     <div class="team-info">
                         <h4 style="color: var(--black);">Deidre</h4>
@@ -123,7 +122,7 @@ get_header(); ?>
                 </div>
                 <div class="team-card">
                     <div class="team-photo"
-                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Ad Hoc/Fitness Team Headshots/10XTO_Chris.jpg');">
+                        style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/Content/Staff Headshots/Jamal Jordan.jpg');">
                     </div>
                     <div class="team-info">
                         <h4 style="color: var(--black);">Jamal</h4>

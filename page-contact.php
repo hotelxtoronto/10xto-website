@@ -37,6 +37,7 @@ get_header(); ?>
                     <div class="info-block">
                         <h4>Hours of Operation</h4>
                         <p>Monday - Friday: 6:00am - 11:00pm<br>Saturday & Sunday: 7:00am - 10:00pm</p>
+                        <p style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--gray-medium);">* Club hours may vary on holidays.</p>
                     </div>
                 </div>
 
@@ -129,7 +130,7 @@ get_header(); ?>
                     <h4>Information</h4>
                     <ul>
                         <li><a href="/faq/">FAQs</a></li>
-                        <li><a href="/contact/">Hotel Guests</a></li>
+                        <li><a href="/hotel-guest/">Hotel Guests</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
                     </ul>

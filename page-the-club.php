@@ -28,7 +28,7 @@ get_header(); ?>
                         class="facility-image">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
-                        <div class="section-badge" style="background: var(--yellow); color: var(--black); margin-bottom: 0.5rem; display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.8rem;">Platinum & Gold Tiers</div>
+                        
                         <h3>Racquets</h3>
                         <p style="color: var(--white);">4 stunning indoor DecoTurf tennis courts and 7 premium glass-backed squash courts offering breathtaking city views and elite play.</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Racquets &rarr;</span>
@@ -40,7 +40,7 @@ get_header(); ?>
                         class="facility-image">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
-                        <div class="section-badge" style="background: var(--yellow); color: var(--black); margin-bottom: 0.5rem; display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.8rem;">Gold Tier</div>
+                        
                         <h3>Fitness & Athletics</h3>
                         <p style="color: var(--white);">A staggering 6,500 sq. ft. fitness centre, a high-performance strength zone, and 4 dedicated group fitness studios.</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Fitness &rarr;</span>
@@ -52,7 +52,7 @@ get_header(); ?>
                         class="facility-image" style="object-position: 75% center;">
                     <div class="facility-overlay"></div>
                     <div class="facility-content">
-                        <div class="section-badge" style="background: var(--yellow); color: var(--black); margin-bottom: 0.5rem; display: inline-block; padding: 0.25rem 0.75rem; font-size: 0.8rem;">Gold Tier</div>
+                        
                         <h3>Wellness</h3>
                         <p style="color: var(--white);">Our expansive Contrast Zone with hot/cold therapy, a skyline-view hot yoga studio, and luxury locker rooms.</p>
                         <span style="color: var(--yellow); font-weight: 600; margin-top: 1rem; display: inline-block;">Explore Wellness &rarr;</span>

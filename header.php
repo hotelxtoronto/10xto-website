@@ -28,7 +28,7 @@ wp_nav_menu(array(
 ?>
 
         <!-- Note: We inject the CTA directly alongside the menu, or use a custom walker if needed. -->
-        <a href="<?php echo esc_url(site_url('/membership/#apply')); ?>" class="cta-button mobile-hidden">Become a Member</a>
+        <a href="<?php echo esc_url(site_url('/membership/#apply')); ?>" class="cta-button mobile-hidden">Membership Inquiry</a>
 
         <div class="mobile-menu-toggle">
             <span></span><span></span><span></span>
@@ -51,8 +51,8 @@ wp_nav_menu(array(
     <a href="<?php echo esc_url(site_url('/events')); ?>">Events</a>
     <a href="<?php echo esc_url(site_url('/gallery')); ?>">Gallery</a>
     <a href="<?php echo esc_url(site_url('/contact')); ?>">Contact</a>
-    <a href="<?php echo esc_url(site_url('/hotel-guest')); ?>">Hotel Guest Information</a>
-    <a href="<?php echo esc_url(site_url('/membership/#apply')); ?>" style="color: var(--yellow);">Become a Member</a>
+    <a href="<?php echo esc_url(site_url('/hotel-guest/')); ?>">Hotel Guest Information</a>
+    <a href="<?php echo esc_url(site_url('/membership/#apply')); ?>" style="color: var(--yellow);">Membership Inquiry</a>
 </div>
 
 

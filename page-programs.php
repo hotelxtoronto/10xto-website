@@ -147,11 +147,11 @@ get_header(); ?>
                 </div>
                 <div class="fitness-classes">
                     <div class="class-item" style="border-left-color: var(--black);">
-                        <h4>Tennis Clinics (Platinum)</h4>
+                        <h4>Tennis Clinics (Platinum) <span class="fee-badge" style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; margin-left: 8px; vertical-align: middle; color: #ccc;">* Additional fees apply</span></h4>
                         <p>Drills and live-ball clinics designed for players of all levels to refine their technique and match play.</p>
                     </div>
                     <div class="class-item" style="border-left-color: var(--black);">
-                        <h4>Squash Clinics</h4>
+                        <h4>Squash Clinics <span class="fee-badge" style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; margin-left: 8px; vertical-align: middle; color: #ccc;">* Additional fees apply</span></h4>
                         <p>Elevate your squash strategy and court awareness with expert instruction and structured drills.</p>
                     </div>
                 </div>
@@ -179,7 +179,7 @@ get_header(); ?>
                 </div>
                 <div class="fitness-classes">
                     <div class="class-item" style="border-left-color: var(--black);">
-                        <h4>Private Sessions</h4>
+                        <h4>Private Sessions <span class="fee-badge" style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; margin-left: 8px; vertical-align: middle; color: #ccc;">* Additional fees apply</span></h4>
                         <p>Work 1-on-1 with our elite coaches to design a program completely tailored to your unique physiology and goals.</p>
                     </div>
                     <div class="class-item" style="border-left-color: var(--black);">
@@ -212,15 +212,15 @@ get_header(); ?>
                 </div>
                 <div class="fitness-classes">
                     <div class="class-item" style="border-left-color: var(--black);">
-                        <h4>Junior Tennis Programs</h4>
+                        <h4>Junior Tennis Programs <span class="fee-badge" style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; margin-left: 8px; vertical-align: middle; color: #ccc;">* Additional fees apply</span></h4>
                         <p>Structured progression from red ball to advanced tournament play, focusing on stroke development and match strategy.</p>
                     </div>
                     <div class="class-item" style="border-left-color: var(--black);">
-                        <h4>Junior Squash Programs</h4>
+                        <h4>Junior Squash Programs <span class="fee-badge" style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; margin-left: 8px; vertical-align: middle; color: #ccc;">* Additional fees apply</span></h4>
                         <p>Introduction to squash syntax, racket control, and court movement for young athletes.</p>
                     </div>
                     <div class="class-item" style="border-left-color: var(--black);">
-                        <h4>Play Centre Activities</h4>
+                        <h4>Play Centre Activities <span class="fee-badge" style="font-size: 0.75rem; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; margin-left: 8px; vertical-align: middle; color: #ccc;">* Additional fees apply</span></h4>
                         <p>Supervised, engaging activities in our dedicated Play Centre designed to keep younger children active and social.</p>
                     </div>
                 </div>

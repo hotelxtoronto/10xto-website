@@ -5,7 +5,7 @@
 get_header(); ?>
 
     <!-- Hero Section -->
-    <header class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/families/Family%20yoga%20at%2010XTO.jpg') center/cover;">
+    <header class="page-hero" style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%), url('<?php echo get_template_directory_uri(); ?>/assets/Content/Families/Family%20yoga%20at%2010XTO.jpg') center/cover;">
         <div class="container">
             <div class="section-badge" style="background: var(--yellow); color: var(--black); margin-bottom: 1rem; display: inline-block;">Family Add-On</div>
             <h1>Families at 10XTO</h1>
@@ -42,10 +42,10 @@ get_header(); ?>
                 <div class="story-image">
                     <div class="mini-carousel">
                         <div class="mini-carousel-track">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/families/Kids%20Play%20Centre.jpg" alt="Kids Play Centre" class="lightbox-trigger">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/families/Children's%20Play%20Centre.jpg" alt="Active Children's Play Centre" class="lightbox-trigger">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/families/HXT_Family_Amenities-1.jpg" alt="Family Amenities at 10XTO" class="lightbox-trigger">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/families/HXT_Family_Pool-11.jpg" alt="Family Pool Day" class="lightbox-trigger">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Families/Kids%20Play%20Centre.jpg" alt="Kids Play Centre" class="lightbox-trigger">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Families/Children's%20Play%20Centre.jpg" alt="Active Children's Play Centre" class="lightbox-trigger">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Families/HXT_Family_Amenities-1.jpg" alt="Family Amenities at 10XTO" class="lightbox-trigger">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/Content/Families/HXT_Family_Pool-11.jpg" alt="Family Pool Day" class="lightbox-trigger">
                         </div>
                         <button class="mc-btn prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
                         <button class="mc-btn next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>

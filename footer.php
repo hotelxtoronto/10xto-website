@@ -5,14 +5,13 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h4>Quick Links</h4>
-                <?php
-wp_nav_menu(array(
-    'theme_location' => 'footer',
-    'menu_id' => 'footer-menu',
-    'container' => false,
-    'fallback_cb' => false,
-));
-?>
+                <ul>
+                    <li><a href="<?php echo esc_url(site_url('/membership')); ?>">Membership</a></li>
+                    <li><a href="<?php echo esc_url(site_url('/programs')); ?>">Programs</a></li>
+                    <li><a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/Group%20Fitness%20Schedule_April%202026.pdf" target="_blank">Schedule</a></li>
+                    <li><a href="<?php echo esc_url(site_url('/contact')); ?>">Contact Us</a></li>
+                    <li><a href="<?php echo esc_url(site_url('/about')); ?>">About</a></li>
+                </ul>
             </div>
             
             <div class="footer-section">

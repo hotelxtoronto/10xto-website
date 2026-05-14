@@ -133,7 +133,7 @@ get_header();
                             </div>
                             <div class="highlight-item">
                                 <h4>Ball Machines</h4>
-                                <p>Complimentary access to premium Slinger bag ball machines for dedicated practice.</p>
+                                <p>Premium Slinger bag ball machines available for dedicated practice ($30/hr).</p>
                             </div>
                         </div>
                     </div>
