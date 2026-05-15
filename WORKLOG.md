@@ -75,3 +75,15 @@
 **Commits:** Pending
 **Incomplete:** None
 **Scratch:** None
+
+
+## 2026-05-14 21:14
+**Prompt:** Implemented Claude's feedback for refining the 301 Redirect Strategy and creating a 404 recovery page.
+**Did:** Completely rewrote the `.htaccess` block in the Local environment. Added missing high-intent URLs (e.g. `membership-request-form`, `fitness`), explicitly defined 1:1 mapping for pages with matching slugs (e.g. `gallery`, `terms-conditions`) to prevent double-redirects, and stripped hash fragments from racquets redirects. Created a new `404.php` template matching the theme's aesthetic with CTAs to recover lost traffic.
+**Files touched:** 
+- `c:\Users\mattb\Local Sites\10XTO\app\public\.htaccess`
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\404.php` (New)
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\WORKLOG.md`
+**Commits:** `00576c4 Add 404 template for error handling`
+**Incomplete:** None
+**Scratch:** None
