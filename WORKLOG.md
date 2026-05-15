@@ -87,3 +87,16 @@
 **Commits:** `00576c4 Add 404 template for error handling`
 **Incomplete:** None
 **Scratch:** None
+
+
+## 2026-05-15 06:55
+**Prompt:** "Proceed with creating all of the pages. Some of these might be designed elsewhere and just hold an image..."
+**Did:** Programmatically generated 23 custom page templates (`page-{slug}.php`) for all unmapped landing pages listed in `10XTO_Website_Links.xlsx`. Removed the `membership-request-form` 301 redirect from `.htaccess` so the new dedicated landing page functions correctly. Updated the Excel file with "Moved Over" and "New URL" columns to track the migration status.
+**Files touched:** 
+- `C:\Users\mattb\OneDrive - Hyatt Hotels\TORDH-F-Team-Hotel - TORDH-Marketing - TORDH-Marketing\AA - 10XTO\Website\10XTO_Website_Links.xlsx`
+- `c:\Users\mattb\Local Sites\10XTO\app\public\.htaccess`
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\page-*.php` (23 new templates)
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\WORKLOG.md`
+**Commits:** Pending
+**Incomplete:** None
+**Scratch:** None
