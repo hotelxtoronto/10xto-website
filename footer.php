@@ -31,6 +31,7 @@
                     <li><a href="<?php echo esc_url(site_url('/contact')); ?>">Contact Us</a></li>
                     <li><a href="<?php echo esc_url(site_url('/privacy-policy')); ?>">Privacy Policy</a></li>
                     <li><a href="<?php echo esc_url(site_url('/terms-conditions')); ?>">Terms & Conditions</a></li>
+                    <li><a href="<?php echo esc_url(site_url('/accessibility')); ?>">Accessibility</a></li>
                 </ul>
             </div>
 

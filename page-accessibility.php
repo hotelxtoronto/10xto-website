@@ -12,12 +12,8 @@ get_header(); ?>
 
     <section class="legal-content" style="padding: 4rem 0; background-color: #fff;">
         <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
-            <?php
-            while ( have_posts() ) :
-                the_post();
-                the_content();
-            endwhile;
-            ?>
+            <p>10XTO is committed to ensuring equal access and participation for people with disabilities. We are committed to treating people with disabilities in a way that allows them to maintain their dignity and independence.</p>
+            <p>We believe in integration, and we are committed to meeting the needs of people with disabilities in a timely manner. We will do so by removing and preventing barriers to accessibility and by meeting our accessibility requirements under Ontario's accessibility laws.</p>
         </div>
     </section>
 

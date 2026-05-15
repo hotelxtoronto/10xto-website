@@ -62,3 +62,16 @@
 **Commits:** `9952a42 Update WORKLOG`
 **Incomplete:** None
 **Scratch:** None
+
+
+## 2026-05-14 20:00
+**Prompt:** "Accessibility page already there from 4/23"
+**Did:** Finalized 301 Redirect map for all legacy Wix URLs via `C:\Users\mattb\Local Sites\10XTO\app\public\.htaccess`. Added hardcoded Accessibility text to `page-accessibility.php` template. Added Accessibility link to the global `footer.php` adjacent to Privacy Policy and Terms. 
+**Files touched:** 
+- `c:\Users\mattb\Local Sites\10XTO\app\public\.htaccess`
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\page-accessibility.php`
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\footer.php`
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\WORKLOG.md`
+**Commits:** Pending
+**Incomplete:** None
+**Scratch:** None
