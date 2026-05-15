@@ -28,3 +28,8 @@ Staging gets promoted to Live manually. The user reviews the staging site, and u
 ## Git Tracking Scope
 **Tracked:** All theme files including `*.php`, `css/`, `js/`, and theme `assets/`.
 **Not Tracked:** The WordPress database, `wp-config.php`, `wp-content/uploads/` (user-uploaded media), third-party plugins, and WordPress core files are not version controlled.
+
+## AI Agent Directives (CRITICAL)
+Any AI Assistant (such as Antigravity) operating within this repository MUST adhere to the following rules:
+1. **Always Read the Log First:** Upon starting a session, the AI must review `WORKLOG.md` to establish context of what was completed previously.
+2. **Always Update the Log:** Before concluding any coding task or architectural change, the AI MUST append a detailed entry to `WORKLOG.md` detailing the prompt, files touched, actions taken, and the commit hash. This is mandatory for maintaining state across multiple developer environments.
