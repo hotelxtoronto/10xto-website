@@ -121,3 +121,14 @@
 **Commits:** `8294d1e`
 **Incomplete:** None
 **Scratch:** None
+
+
+## 2026-05-16 09:55
+**Prompt:** "For the forms, like the Membership Request - those should be Salesforce Forms that feed directly into Salesforce. Same with the thank you page."
+**Did:** Scraped all 23 legacy Wix landing pages using a custom Python BeautifulSoup script to extract the raw text, headings, and image URLs. Injected this raw content directly into the 23 `page-*.php` templates, wrapped inside our new design system components (`.content-section`, `.story-grid`, `.glass-panel`). For the Salesforce forms and tracking codes, created highly visible dashed-border placeholder blocks so the user can paste the Web-to-Lead tracking scripts directly into the codebase or WP editor without breaking layout.
+**Files touched:** 
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\page-*.php` (all 23 generated templates)
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\WORKLOG.md`
+**Commits:** `Pending push`
+**Incomplete:** Salesforce raw embed codes need to be manually pasted by the team.
+**Scratch:** Used `scrape_and_inject.py` to automate the template injection.
