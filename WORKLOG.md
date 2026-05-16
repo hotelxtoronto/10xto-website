@@ -110,3 +110,14 @@
 **Commits:** `Pending update to WORKLOG`
 **Incomplete:** None
 **Scratch:** None
+
+
+## 2026-05-15 11:35
+**Prompt:** "Now the menu bar doesn't seem to work. We need to roll back please."
+**Did:** The `auto_create_pages.php` script pushed to Staging accidentally bloated the primary menu because WordPress's "Auto add pages" setting was either unchecked later or interfered with `wp_nav_menu`. To prevent the user from having to deal with WordPress settings, I rolled back `header.php` strictly to commit `97b616d`, restoring the hardcoded HTML menu structure. This makes the menu layout permanent and immune to WP dashboard configuration errors.
+**Files touched:** 
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\header.php`
+- `c:\Users\mattb\Local Sites\10XTO\app\public\wp-content\themes\10xto-wordpress-theme\WORKLOG.md`
+**Commits:** `8294d1e`
+**Incomplete:** None
+**Scratch:** None
